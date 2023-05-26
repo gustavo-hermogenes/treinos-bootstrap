@@ -1,0 +1,30 @@
+body {
+    font: 20px Sans-seriff;
+}
+
+.navbar {
+    background-color: #3DF36C;
+}
+
+.Primeiro-item {
+    background-color: aqua;
+}
+
+.Segundo-item {
+    background-color: aliceblue;
+}
+
+.margin {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+img {
+    margin: 2%;
+}
+
+.row-img {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
