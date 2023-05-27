@@ -22,47 +22,105 @@
                             <a class="nav-link"  href="#Segundo item">Segundo item</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"  href="#">Itens adicionais</a>
+                            <a class="nav-link"  href="#Terceiro item">Itens adicionais</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <section id="Primeiro item de nav" >
+        <section id="Primeiro item de nav">
             <div class="container-fluid Primeiro-item text-center margin">
                 <h3>Primeiro item de navegação</h3>
                 
                 <img 
                     src="media/img/library-pexels-janko-ferlic-590493.jpg"
                     alt="random image of a library"
-                    class="rounded-circle"
-                    width="500"
+                    class="rounded-circle big-img"
                 >
                 <p>
-                    Texto da primeira seção. Texto da primeira seção. Texto da primeira seção. Texto da primeira seção. 
-                    Texto da primeira seção. Texto da primeira seção. Texto da primeira seção. Texto da primeira seção. 
-                    Texto da primeira seção. Texto da primeira seção. Texto da primeira seção. Texto da primeira seção. 
-                    Texto da primeira seção. Texto da primeira seção. Texto da primeira seção. Texto da primeira seção. 
+                    In this section, in order to make the image reponsive, forcing it to mantain a squared
+                    proportion using CSS, the solution presented by the article 
+                    "<a href="https://spin.atomicobject.com/2015/07/14/css-responsive-square/">
+                    How to Create a Responsive Square with CSS</a> was applied. It is based on replacing the
+                    "height" property by the ":after" pseudo-element, in "square" class, with "padding-bottom",
+                    considering the padding is calculated with respect to its parent "width".
                 </p>
             </div>
         </section>
         <section id="Segundo item">
-            <div class="container-fluid text-center margin Segundo-item">
+            <div class="container-fluid Segundo-item text-center margin">
                 <h3>Segundo item</h3>
-                <div class="container">
+                <p class="margin">
+                    In this section, a container with rows was created to separate the contact options.
+                </p>
+                
+                <div class="container-fluid margin">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="media/img/github-mark.png" alt="" class="row-img">
+                            <img src="media/img/github-mark.png" alt="" class="rounded-circle square">
+                            <p>
+                                Fork me on <a href="https://github.com/gustavo-hermogenes">Github</a>.
+                            </p>
                         </div>
                         <div class="col-lg-4">
-                            <img src="media/img/mailbox-pexels-gilberto-olimpio-5983865.jpg" alt="" class="row-img">
+                            <img src="media/img/mailbox-pexels-gilberto-olimpio-5983865.jpg" alt="" 
+                            class="rounded-circle row-img square">
+                            <p>
+                                Contact by <a href="mailto:abstract_email@mail.com">email</a>
+                            </p>
                         </div>
                         <div class="col-lg-4">
-                            <img src="media/img/phone-pexels-markus-winkler-3639873.jpg" alt="" class="row-img">
+                            <img src="media/img/phone-pexels-markus-winkler-3639873.jpg" alt="" 
+                            class="rounded-circle row-img square">
+                            <p>
+                                Old school <a href="tel:+999999999999">call</a>.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section id="Terceiro Item">
+            <div class="container-fluid text-center margin Terceiro-item">
+                <h3>Itens adicionais</h3>
+                <div class="container-fluid margin">
+                    <p margin>
+                        This section represents additional sections. 
+                    </p>
+                    <div class="container-fluid margin">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                This section represents additional sections, and this is the fisrt row
+                                of a container.
+                                This section represents additional sections, and this is the fisrt row
+                                of a container.
+                                This section represents additional sections, and this is the fisrt row
+                                of a container.
+                                This section represents additional sections, and this is the fisrt row
+                                of a container.
+                                This section represents additional sections, and this is the fisrt row
+                                of a container.
+                            </div>
+                            <div class="col-lg-6">
+                                This section represents additional sections, and this is the second row
+                                of a container.
+                                This section represents additional sections, and this is the second row
+                                of a container.
+                                This section represents additional sections, and this is the second row
+                                of a container.
+                                This section represents additional sections, and this is the second row
+                                of a container.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container-fluid text-center margin">
+            <p>
+                Desenvolvido por GH
+            </p>
+        </footer>
     </body>
 </html>
